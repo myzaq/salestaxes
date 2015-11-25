@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Bean used to store all the informations of Goods
+ * Bean used to store all the informations of a Shopping Cart
  * 
  * @author Thomas Bartlett
  *
