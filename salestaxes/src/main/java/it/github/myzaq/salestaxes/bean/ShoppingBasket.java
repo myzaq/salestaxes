@@ -32,7 +32,11 @@ public class ShoppingBasket {
 	 * @return
 	 */
 	public List<Product> getProducts() {
-		return products;
+		List<Product> clonedProducts = new ArrayList<Product>();
+		for(Product product: products){
+			clonedProducts.add(new Product(product.getType(), product.getDescription(), product.getPrice(), product.isImported()));
+		}
+		return clonedProducts;
 	}
 
 	/**
